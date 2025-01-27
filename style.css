@@ -3,12 +3,6 @@ body{
 
 }
 
-h1{
-    color:white;
-}
-
-
-
 .sidebar{
     position: fixed;
     top: 0;
@@ -19,18 +13,21 @@ h1{
 
 }
 
-.sidebar__navigation{
+.sidebar_navigation{
     background-color: #121212;
     border-radius: 8px;
     padding: 16px 0 0 16px;
 }
 
-.sidebar__navigation.logo{
+.sidebar_navigation.logo{
     background: #121212;
     display: flex;
     border-radius: 8px;
     padding: 16px 0 0 16px;
 
+}
+.sidebar_navigation .logo img{
+    width: 80px;
 }
 
 .sidebar nav ul{
@@ -49,6 +46,7 @@ h1{
     font-weight: 600;
     font-size: 14px;
     font-family: "DM Sans", sans-serif;
+    
 }
 
 .logo img{
@@ -56,3 +54,38 @@ h1{
     height: 25px;
 }
 
+.library{
+    background-color: #121212;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 4px 8px;
+    color:#b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.library .library__content{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.library .library__button{
+    display: flex;
+    margin-right: 10px;
+    color: #b3b3b3;
+    background-color: transparent;
+    border: 0px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding: 20px 10px;
+
+}
