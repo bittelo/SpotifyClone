@@ -101,3 +101,11 @@ body{
 .library .library__content .fa-plus{
     margin: 24px 10px;
 }
+
+.section-playlist{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #242424;
+}
