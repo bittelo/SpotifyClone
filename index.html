@@ -18,105 +18,118 @@
 
 </head>
 <body>
-    <div class="sidebar "> 
-        <nav class="sidebar_navigation">
-            
-            <div class="logo">
+    <div class="sidebar">
+      <nav class="sidebar_navigation">
+        <div class="logo">
+          <a href="">
+            <img
+              src="./src/assets/icons/logo-spotify.png"
+              alt="logo do spotify"
+            />
+          </a>
+          <div>
+            <ul>
+              <li>
                 <a href="">
-                    <img src="./src/assets/icons/logo-spotify.png" alt="logo do spotify">
+                  <span class="fa fa-home"></span>
+                  <span>Home</span>
                 </a>
-                <div>
-                    <ul>
-                        <li>
-                            <a href="">
-                            <span class="fa fa-home"></span>
-                            <span>Home</span>
-                        </a>
-                    </li>
-                        <li>
-                            <a href="">
-                                <span class="fa fa-search"></span>
-                                <span>Search</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            
-        </nav>
-        <div class="library">
-            <div class="library__content">
-              <button class="library__button">
-                <span class="fa fas fa-book"></span>
-                <span>Library</span>
-              </button>
-              <span class="fa fa-plus"></span>
-            </div>
-            
-        <section class="section-playlist">
-            <div class="section-playlist__content">
-                    <span class="text title"> Create your first playlist!</span>
-                    <span class="text subtitle"> It's easy! We'll help you!</span>
-                    <button class="section-playlist__button">
-                    <span>Create Playlist</span>
-                </button>
-            </div>
+              </li>
+              <li>
+                <a href="">
+                  <span class="fa fa-search"></span>
+                  <span>Search</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
+      <div class="library">
+        <div class="library__content">
+          <button class="library__button">
+            <span class="fa fas fa-book"></span>
+            <span>Library</span>
+          </button>
+          <span class="fa fa-plus"></span>
+        </div>
+
+        <section class="section-playlist">
+          <div class="section-playlist__content">
+            <span class="text title"> Create your first playlist!</span>
+            <span class="text subtitle"> It's easy! We'll help you!</span>
+            <button class="section-playlist__button">
+              <span>Create Playlist</span>
+            </button>
+          </div>
         </section>
-            <div class="cookies">
-                <a href="">Cookies</a>
-            </div>
-            <div class="languages">
-                <button class="languages__button">
-                    <span class="fa fa-globe"></span>
-                    <span>English</span>
-                </button>
-            </div>
+        <div class="cookies">
+          <a href="">Cookies</a>
+        </div>
+        <div class="languages">
+          <button class="languages__button">
+            <span class="fa fa-globe"></span>
+            <span>English</span>
+          </button>
+        </div>
+      </div>
     </div>
 
     <main>
-        <div class="main-container">
-            <nav class="header__navigation">
-                <div class="navigation">
-                    <button class="arrow-left">
-                        <img src="./src/assets/icons/small-left.png" alt="Seta esquerda">
-                    </button>
-                    <button class="arrow-right">
-                        <img src="./src/assets/icons/small-right.png" alt="Seta direita">
-                    </button>
-                </div>
-                <div class="header__search">
-                    <img src="./src/assets/icons/search.png" alt="">
-                    <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir?" />
-                </div>
-                <div class="header__login">
-                    <button class="subscribe">Sign up</button>
-                    <button class="login">Login</button>
-                </div>
-            </nav>
-            <div class="playlist-container">
-                <div id="result-playlists">
-                    <div class="playlist">
-                        <h1 id="greeting">Welcome!</h1>
-                        <h2 class="greeting-subtitle">Browse for all sessions</h2>
-                    </div>
-                    <!--cards-->
-                </div>
+      <div class="main-container">
+        <nav class="header__navigation">
+          <div class="navigation">
+            <button class="arrow-left">
+              <img
+                src="./src/assets/icons/small-left.png"
+                alt="Seta esquerda"
+              />
+            </button>
+            <button class="arrow-right">
+              <img
+                src="./src/assets/icons/small-right.png"
+                alt="Seta direita"
+              />
+            </button>
+          </div>
+          <div class="header__search">
+            <img src="./src/assets/icons/search.png" alt="" />
+            <input
+              id="search-input"
+              type="text"
+              maxlength="800"
+              placeholder="What do you want to play?"
+            />
+          </div>
+          <div class="header__login">
+            <button class="subscribe">Sign up</button>
+            <button class="login">Login</button>
+          </div>
+        </nav>
+
+        <div class="playlist-container">
+          <div id="result-playlists">
+            <div class="playlist">
+              <h1 id="greeting">Boas vindas</h1>
+              <h2 class="session">Navegar por todas as seções</h2>
             </div>
+          </div>
         </div>
+      </div>
     </main>
 
     <footer class="disclaimer-premium">
-        <div class="text">
-            <p class="disclaimer-premium__title">Preview of Spotify</p>
-            <p class="disclaimer-premium__subtitle">
-                Sign up to enjoy unlimited music and podcasts with occasional ads. No credit card required.
-            </p>
-        </div>
-        <div class="button">
-            <button type="button">Sign up free</button>
-        </div>
+      <div class="text">
+        <p class="disclaimer-premium__title">Preview of Spotify</p>
+        <p class="disclaimer-premium__subtitle">
+          Sign up to enjoy unlimited music and podcasts with occasional ads. No
+          credit card required.
+        </p>
+      </div>
+      <div class="button">
+        <button type="button">Sign up free</button>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>

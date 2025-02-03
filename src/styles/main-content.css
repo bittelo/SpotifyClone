@@ -1,7 +1,7 @@
 /* HEADER */
 
 .main-container{
-    max-width: 80vw;
+    width: 80vw;
     height: 100vh;
     margin-left: 320px;
     margin-right: 56px;
@@ -16,8 +16,7 @@
     border-radius: 8px;
     background-color: #121212;
     padding: 12px;
-    position: fixed;
-    top: 0;
+    
   }
   
   .header__navigation .navigation {
@@ -83,7 +82,6 @@
     font-weight: 700;
     background-color: transparent;
     margin-right: 32px;
-    margin-left: 200px;
   }
   
   .header__login .login {
@@ -94,3 +92,38 @@
     font-weight: 700;
     border-radius: 40px;
   }
+
+
+  .playlist-container{
+    height: 68vh;
+    padding-top: 16px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #121212;
+    
+    
+  }
+  
+  .playlist {
+    margin: 24px;
+  }
+  
+  .playlist #greeting {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 48px;
+  }
+  
+  .playlist .session {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  
+
+  
+
+
+  
